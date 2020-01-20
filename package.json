@@ -2,7 +2,7 @@
   "name": "github-portfolios",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wendiiwong.github.io",
+  "homepage": "http://wendiiwong.github.io/portfolios",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
