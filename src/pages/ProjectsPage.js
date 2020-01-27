@@ -39,7 +39,7 @@ function ProjectsPage(props) {
 
     const ripOffDescription = "Rip-Off is one of the shooting arcade game released in 1980. In this project, the \"Evolved\" version of Rip-Off is reproduced on multiple platforms.";
     const ripOffLinkTo = "/ripoff";
-    const ripOffImg = "ripoff.png";
+    const ripOffImg = "/ripoff.png";
     const ripOffImgAlt = "rip off";
     const openGLDescription =   
         "This is a graphics rendering project developed using C++ and OpenGL. " +
