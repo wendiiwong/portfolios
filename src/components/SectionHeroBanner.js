@@ -2,7 +2,7 @@ import React from 'react';
 
 function SectionFullImage() {
   const heroImgStyle = {
-    backgroundImage: 'url("hero-banner.jpg")'
+    backgroundImage: 'url("https://github.com/wendiiwong/portfolios/blob/gh-pages/hero-banner.jpg?raw=true")'
   };
 
   return (

@@ -22,7 +22,7 @@ function TDD() {
         <div className="se-practice">
             <div className="se-icon-wrapper">
                 <div className="se-icon">
-                    <img src="tdd.png" alt="test driven dev"></img>
+                    <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/tdd.png?raw=true" alt="test driven dev"></img>
                 </div>
             </div>
             <div className="se-icon-text">
@@ -39,7 +39,7 @@ function CI() {
         <div className="se-practice">
             <div className="se-icon-wrapper">
                 <div className="se-icon">
-                    <img src="CI.png" alt="continous integration"></img>
+                    <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/CI.png?raw=true" alt="continous integration"></img>
                 </div>
             </div>
             <div className="se-icon-text">
@@ -56,7 +56,7 @@ function Agile() {
         <div className="se-practice">
             <div className="se-icon-wrapper">
                 <div className="se-icon">
-                    <img src="agile.png" alt="agile"></img>
+                    <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/agile.png?raw=true" alt="agile"></img>
                 </div>
             </div>
             <div className="se-icon-text">
@@ -73,7 +73,7 @@ function CleanCode() {
         <div className="se-practice">
             <div className="se-icon-wrapper">
                 <div className="se-icon">
-                    <img src="cleancode.png" alt="clean code"></img>
+                    <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/cleancode.png?raw=true" alt="clean code"></img>
                 </div>
             </div>
             <div className="se-icon-text">
@@ -112,7 +112,7 @@ function PortfolioItemContainerRipOff() {
         <div className="portfolio-item-container">
             <div className="portfolio-item">
             <div>
-                <img src="ripoff.png" alt="ripoff"></img>
+                <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/ripoff.png?raw=true" alt="ripoff"></img>
             </div>
             <Link to="/ripoff">
                 <div className="portfolio-item-meta">
@@ -130,7 +130,7 @@ function PortfolioItemContainerGraphicsRendering() {
         <div className="portfolio-item-container">
             <div className="portfolio-item">
                 <div>
-                    <img src="opengl.png" alt="graphicsrendering"></img>
+                    <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/opengl.png?raw=true" alt="graphicsrendering"></img>
                 </div>
                 <Link to="/opengl">
                     <div className="portfolio-item-meta">

@@ -184,7 +184,7 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  aligh-items: center;
+  align-items: center;
   padding : .5rem 2rem;
   z-index: 100;
   position: fixed;

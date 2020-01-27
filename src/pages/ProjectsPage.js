@@ -45,7 +45,7 @@ function ProjectsPage(props) {
         "This is a graphics rendering project developed using C++ and OpenGL. " +
         "It demonstrates difference algorithms and techniques in graphics programming.";
     const openGLLinkTo = "/opengl";
-    const openGLImg = "opengl.png";
+    const openGLImg = "https://github.com/wendiiwong/portfolios/blob/gh-pages/opengl.png?raw=true";
     const openGLImgAlt = "graphics rendering";
 
     return (
