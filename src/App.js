@@ -19,7 +19,7 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <Header />
-          <Route exact path="/" render={() => <HomePage />} />
+          <Route exact path="/portfolios" render={() => <HomePage />} />
           <Route path="/projects" render={() => <ProjectsPage />} />
           <Route path="/about" render={() => <AboutPage />} />
           <Route path="/ripoff" render={() => <ProjectRipOff />} />

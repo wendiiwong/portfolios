@@ -14,7 +14,7 @@ function Header() {
                 <nav className="main-nav bg-dark">
                     <div className="main-nav-branding">
                         <div className="main-nav-logo">
-                            <Link to='/'>
+                            <Link to='/portfolios'>
                                 <SiteLogo />
                             </Link>
                         </div>
