@@ -246,7 +246,7 @@ img {
 
 .main-nav-links-item a:hover {
   color: inherit;
-  opacity: 60%;
+  /* opacity: 60%; */
   border-bottom: 2px solid var(--light-red);
 }
 
