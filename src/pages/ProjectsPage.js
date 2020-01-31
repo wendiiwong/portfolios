@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Project(props) {
     return (
@@ -38,13 +38,13 @@ function ProjectHeader() {
 function ProjectsPage(props) {
 
     const ripOffDescription = "Rip-Off is one of the shooting arcade game released in 1980. In this project, the \"Evolved\" version of Rip-Off is reproduced on multiple platforms.";
-    const ripOffLinkTo = "/ripoff";
+    const ripOffLinkTo = "/ripoff#ripoff-title";
     const ripOffImg = "https://github.com/wendiiwong/portfolios/blob/gh-pages/ripoff.png?raw=true";
     const ripOffImgAlt = "rip off";
     const openGLDescription =   
         "This is a graphics rendering project developed using C++ and OpenGL. " +
         "It demonstrates difference algorithms and techniques in graphics programming.";
-    const openGLLinkTo = "/opengl";
+    const openGLLinkTo = "/opengl#opengl-title";
     const openGLImg = "https://github.com/wendiiwong/portfolios/blob/gh-pages/opengl.png?raw=true";
     const openGLImgAlt = "graphics rendering";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function SectionContent(props) {
     const title = props.title;
@@ -114,7 +114,7 @@ function PortfolioItemContainerRipOff() {
             <div>
                 <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/ripoff.png?raw=true" alt="ripoff"></img>
             </div>
-            <Link to="/ripoff">
+            <Link to="/ripoff#ripoff-title">
                 <div className="portfolio-item-meta">
                     <h4>Rip-Off</h4>
                     <p>Multiplayer flight shooting game on PSP.</p>
@@ -132,7 +132,7 @@ function PortfolioItemContainerGraphicsRendering() {
                 <div>
                     <img src="https://github.com/wendiiwong/portfolios/blob/gh-pages/opengl.png?raw=true" alt="graphicsrendering"></img>
                 </div>
-                <Link to="/opengl">
+                <Link to="/opengl#opengl-title">
                     <div className="portfolio-item-meta">
                         <h4>Real Time Graphics</h4>
                         <p>Graphics rendering project.</p>
