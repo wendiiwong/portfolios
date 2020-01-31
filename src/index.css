@@ -437,6 +437,8 @@ img {
 .button:hover {
   opacity: 60%;
   transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
 }
 
 @media only screen {
