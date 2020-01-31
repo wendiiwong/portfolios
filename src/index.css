@@ -398,7 +398,7 @@ img {
 
 .portfolio-item:hover .portfolio-item-meta{
   top: 0;
-  opacity: 60%;
+  /* opacity: 0.7; */
 }
 
 .portfolio-item-meta {
@@ -428,14 +428,14 @@ img {
   background: var(--light-red);
   text-align: center;
   text-transform: uppercase;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .button:hover {
-  opacity: 60%;
+  display: inline-block;
   transform: scale(0.9);
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
@@ -499,12 +499,12 @@ img {
 
 .project-title a:hover {
   color: var(--light-red);
-  opacity: 60%;
+  opacity: 0.7;
   padding: 4px 20px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
   border-bottom: 3px solid var(--light-red);
   border-top: 3px solid var(--light-red);
 }
@@ -531,7 +531,7 @@ img {
 }
 
 .symbol:hover{
-  opacity: 60%;
+  opacity: 0.6;
   font-size: 80%;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
